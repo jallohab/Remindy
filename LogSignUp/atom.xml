@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+	<title>Sport, Tech and Business News</title>
+	<subtitle>The New York and The Economist.</subtitle>
+	<link href="http://example.org/feed/" rel="self" />
+	<link href="http://example.org/" />
+	<id>urn:uuid:60a76c80-d399-11d9-b91C-0003939e0af6</id>
+	<updated>28 Feb 2019 18:13:23 GMT</updated>
+	<author>
+		<name>Abdulai Jalloh</name>
+		<email>jalloa@rpi.edu</email>
+	</author>
+ 
+	<entry>
+		<title>How Mark Zuckerberg Became Too Big to Fail</title>
+		<link href="https://www.nytimes.com/2018/11/01/technology/mark-zuckerberg-facebook.html" />
+		<id>https://www.nytimes.com/2019/02/27/technology/personaltech/digital-footprint-surveillance.html</id>
+		<updated>27 Feb 2019 18:13:23 GMT</updated>
+		<summary>How Facebook CEO are still failling even after apologizing and vowing to fix Facebook.</summary>
+	</entry>
+
+    <entry>
+		<title>What the US-Taliban talks might achieve</title>
+		<link href="https://www.economist.com/the-economist-explains/2019/02/22/what-the-us-taliban-talks-might-achieve" />
+		<id>/content/jr090la5evmi22jh7rfk3nvn0ddglk97</id>
+		<updated>Fri, 22 Feb 2019 15:42:19 +0000</updated>
+		<summary>Hopes have been raised after years of despair. What might the US-Taliban talks achieve?.</summary>
+	</entry>
+    <entry>
+		<title>How Mark Zuckerberg Became Too Big to Fail</title>
+		<link href="https://www.nytimes.com/2019/02/26/sports/us-soccer-copa-america-conmebol.html?partner" />
+		<id>https://www.nytimes.com/2019/02/28/sports/atlanta-united-mls-miguel-almiron-josef-martinez.html</id>
+		<updated>Thu, 28 Feb 2019 19:02:32 GMT</updated>
+		<summary>For next summer, though, Cordeiro is proposing a larger, intercontinental event in the United States.
+                The event could fill a gap in the global soccer calendar — at the moment, the Euros are the only major
+                championship scheduled for that summer</summary>
+	</entry>
+
+    <entry>
+		<title>Lindsey Vonn, the most dominant alpine skier ever, retires</title>
+		<link href="https://www.economist.com/game-theory/2019/02/13/lindsey-vonn-the-most-dominant-alpine-skier-ever-retires" />
+		<id>/content/8sb2voq3nnembnsmjppk7bl5773hjnhn</id>
+		<updated>Tue, 29 Jan 2019 11:01:51 +0000</updated>
+		<summary>Between 2008 and 2012, the American finished first in the cross-discipline end-of-season
+                 standings four times, a run that was marred only by a second-place showing in 2011.</summary>
+	</entry>
+    <entry>
+		<title>U.S. Economy Cooled as G.D.P. Grew at 2.6% Rate in Fourth Quarter</title>
+		<link href="https://www.nytimes.com/2019/02/28/business/economy/gdp-report.html?partner" />
+		<id>https://www.nytimes.com/2019/02/28/business/economy/gdp-report.html</id>
+		<updated>Thu, 28 Feb 2019 19:01:43 GMT</updated>
+		<summary>Residential investment, a proxy for housing construction, fell for the fourth straight quarter, as higher
+                interest rates and declining affordability weighed on construction and sales.</summary>
+	</entry>
+ 
+</feed>
+
