@@ -192,3 +192,16 @@ button:hover {
 	width: 40px;
 	opacity: 1.0;
 }
+
+/* promo */
+p {
+	color: white;
+}
+#ask {
+	background: white;
+	height: 20px;
+	/* text-align: center;
+	color: black;
+	display: inline-block; */
+	width: 4.7%;
+}
