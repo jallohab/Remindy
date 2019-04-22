@@ -1,0 +1,45 @@
+
+body {
+	background-color: #52658F;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: URW Chancery L, cursive;
+}
+
+hr {
+    width: 50%;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+img {
+    width: 22%;
+    height: 22%;
+    /* float: right; */
+    padding-right: 0.6em;
+    /* overflow: hidden; */
+    clip: rect(0px,6px,200px,0px);
+}
+.first {
+    float: right;
+    padding-right: 24.9em;
+    clip: rect(0px,6px,200px,0px);
+}
+.sec {
+    padding-left: 24.9em;
+}
+
+/* .sec {
+    width: 32%;
+    height: 12%;
+    padding-left: 0.6em;
+    /* overflow: hidden; */
+    clip: rect(0px,6px,200px,0px);
+} */

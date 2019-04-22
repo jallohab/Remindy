@@ -1,27 +1,60 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
-        <title>Log in</title>
-        <link rel="stylesheet" type="text/css" href="index.css">
-        <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+	<title>Welcome To Remindy</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+	<script type="text/javascript" src=lib/jquery-3.3.1.min.js></script>
 	
-
-    <h2>Welcome to your Promo deal!<i class="em em---1"></i></h2>
-    
 </head>
-<body class="redirect">
-        <nav>
-                <ul>
-                    <li><a href="../TodoLists/index.html">To-Do</a></li>
-                    <li><a href="../LoginAttr/atom.xml">News</a></li>
-                    <li><a href="../LoginAttr/text.html">Text</a></li>
-                </ul>
-             </nav>
+<body class>
+	<h1>
+		Welcome 
+		<br>
+		<span id="colorDisplay">To Your</span> 
+		<br>
+	Remindy Promo! <i class="em em-clap"></i></h1>
 
-    </div>
-</form>
+	<div id="info">
+         <a href=""><button id="home" class="selected" > Home</button></a>
+         <a href="../LoginAttr/atom.xml"><button id="about"> News</button></a>
+         <a href="../LoginAttr/text.html"><button id="about"> Notes</button></a>
 
+		<span id="preference"></span>
+		<a href="../LoginAttr/logout.html"><button id="logIn"> Log out</button></a>
+		<!-- <a href="LogSignUp/signup.php"><button id="signIn"> Sign up</button></a> -->
+	</div>
+    <!--  -->
+    <div class="search">
+            <input type="text" name="" class="search-txt" id="mySearch" placeholder="Search"/>
+            <a class="search-btn">
+             <i class="far fa-search"></i>
+			</a>
+			
+	 </div>
+	 <br><br><br><br><br><br><br>
+	 <div id="container">
+			<input type="text" placeholder="Add New To-do" class = "add">
+			<h1>Reminder</h1>
+			<ul id="myTodo">
+					<li><span><i class="fa fa-trash"></i></span> Jalloh</li>
+					<li><span><i class="fa fa-trash"></i></span> Study</li>
+					<li><span><i class="fa fa-trash"></i></span> Call Mum</li>
+	
+			</ul>
+		</div>
+		<br>
+
+<script type="text/javascript" src="index.js"></script>
 </body>
 </html>
+
+<!-- 
+It is limited to 5 you can add if you want to add it daily without log in:
+But you can do it unlimeted if you have an account. and We provide news for you
+if you've because we want to you to keep productive about what you're day to day to work.
+Note. We wanted to come up with an algorithm that will suggest any reading based on what you do daily or weekly.
+if you have an account we sorted it for you alphabetically -->

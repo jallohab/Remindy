@@ -8,7 +8,7 @@
 }
 
 .signUpBody {
-	background: #3D9970;
+	background: #52658f;
 	height: 100vh;
 	background-size: cover;
 	background-position: center; 
@@ -19,7 +19,8 @@
 	margin: auto;
 }
 .LogInBody {
-	background: #3D9970;
+	/* background: #3D9970; */
+	background: #52658f;
 	height: 100vh;
 	background-size: cover;
 	background-position: center; 
@@ -29,11 +30,11 @@
 	padding: 10% 0 0;
 	margin: auto;
 }
-p {
+/* p {
 	color: white;
-}
+} */
 .form .message a {
-	color: #01FF70;
+	color: blue;
 	text-decoration: none;
 }
 
@@ -41,7 +42,7 @@ p {
 .form {
 	position: relative;
 	z-index: 1;
-	background:  #0074D9;
+	background:  #e8e8e8;
 	max-width: 360px;
 	margin: 0 auto 100px;
 	padding: 45px;
@@ -64,7 +65,7 @@ p {
 	font-family: "Roboto", sans-serif;
 	text-transform: uppercase;
 	outline: 0;
-	background: #4caf50;
+	background: #333A56;
 	widows: 100px;
 	border: 0;
 	margin: 0 0 15px;
@@ -119,7 +120,8 @@ form.search input[type=text] {
     display: table;
 	}
   p {
-    text-align: center;
+		text-align: center;
+		color:  #333A56;
 }
 
 input[type=text], input[type=password] {
@@ -150,37 +152,64 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 /* Redirect login in html */
+
+/*
 .redirect {
-	background: #2F4F4F;
-	width: 100%;
-	height: 800px;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	font-family: Lato;
-	color: white;
-}
-nav {
-	width: 1429px;
-	height: 70px;
-	background-color: #fff;
-}
-nav ul li {
-	list-style: none;
-	display: inline;
-	float: left;
-	line-height: 100px;
+	
+	background-color: #E8E8E8;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
 }
 
-nav ul li a {
-	display: block;
-	text-decoration: none;
-	font-size: 19px;
-	font-family: Arial;
-	color: #1e1e1e;
-	padding: 0 20px;
-}
-h2 {
+h1 {
+	color: white;
 	text-align: center;
-	display: block;
+	
+	background: #52658F;
+	margin: 0;
+	font-weight: normal;
+	line-height: 1.1;
+	padding: 10px 0;
+	font-size: larger;
 }
+
+#colorDisplay {
+	font-size: 100%;
+}
+
+#info {
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+.selected {
+	color: white;
+	
+	background: #52658F;
+}
+
+button {
+	border: none;
+	background: none;
+	height: 100%;
+	font-weight: 700;
+	
+	color: #52658F;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	--webkit-transition: all 0.3s;
+	--moz-transition: all 0.3s;
+	outline: none;
+}
+
+button:hover {
+	color: white;
+	
+	background: #52658F;
+}*/
+
+/*  */
+

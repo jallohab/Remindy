@@ -49,7 +49,7 @@ if (isset($_POST['email'])) {
             <input type="checkbox" > Remember me <br>
                 <button type= "submit" class="registerbtn">Log in</button>
                 <p class ="message">
-                    Need an account
+                    Need an account!
                 <a href='signup.php'>Sign Up</a>
                 </p>
         </div>
